@@ -76,6 +76,7 @@ function verListaProdutoSelecionado() {
         if(produto.carrinho){
             produto.quantidade = 1;
             listaProduto += `
+                 
             <div class="anuncio"">
                 <div class="produto">
                     <img src="${produto.imagem}" alt="">

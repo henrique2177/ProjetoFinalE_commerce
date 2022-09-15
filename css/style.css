@@ -32,6 +32,15 @@ html {
 
 }
 
+.gerenciamento{
+    float: right;
+    margin-right: 40px;
+    margin-top: -60px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
 #principal {
     background-color: rgb(140, 218, 63);
     position: absolute;
@@ -44,7 +53,7 @@ html {
 
 #carrinho-principal {
     margin-top: -70px;
-    margin-right: 180px;
+    margin-right: 280px;
 }
 
 .anuncio {
@@ -136,12 +145,14 @@ p {
     margin-top: 5px;
 }
 
+
 /*formulario*/
 
 #formulario {
     position: absolute;
-    margin-top: 400px;
+    margin-top: 530px;
     margin-left: 550px;
+    
 
 }
 
