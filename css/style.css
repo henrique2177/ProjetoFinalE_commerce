@@ -1,37 +1,38 @@
-*{
+* {
     margin: 0;
     padding: 0;
-   
+
 }
 
 html {
     scroll-behavior: smooth;
-  }
+}
 
 
-@font-face{
+@font-face {
     font-family: 'Dark College';
-    src: url('Dark College.otf') ;
+    src: url('Dark College.otf');
 }
 
 
 .topo {
     height: 120px;
-    background: url('../images/halter.jpg') ;
+    background: url('../images/halter.jpg');
     width: 100%;
-   margin-top: 40px;
+    margin-top: 40px;
 
-   
 }
-.topo h1{
+
+.topo h1 {
     margin-left: 400px;
     margin-top: -50px;
     font-family: Trattatello, fantasy;
     font-size: 70px;
     color: rgb(34, 40, 227);
-   
+
 }
-#principal{
+
+#principal {
     background-color: rgb(140, 218, 63);
     position: absolute;
     margin-left: 220px;
@@ -41,11 +42,12 @@ html {
     border-radius: 10%;
 }
 
-#carrinho-principal{
+#carrinho-principal {
     margin-top: -70px;
     margin-right: 180px;
 }
-.anuncio{
+
+.anuncio {
     height: 350px;
     width: 260px;
     border: 10px solid rgb(34, 40, 227);
@@ -54,55 +56,55 @@ html {
     margin-left: 15px;
     margin-top: 30px;
     float: left;
-  background-color: white;
-    
+    background-color: white;
+
 }
 
-.carrinho{
-    /* color: #e66b6b; */
+.carrinho {
+
     color: rgb(34, 40, 227);
-   margin-top: 15px;
+    margin-top: 15px;
     right: 8px;
     bottom: 14px;
-    
     cursor: pointer;
 }
 
-.carrinho:active{
-    color:rgb(140, 218, 63);
+.carrinho:active {
+    color: rgb(140, 218, 63);
 }
 
-img{
+img {
     height: 120px;
     width: 170px;
     align-items: center;
     margin-left: 30px;
     cursor: pointer;
-   
-}
-img:hover{
-    transform: scale(1.5); 
-    
+
 }
 
-h3{
+img:hover {
+    transform: scale(1.5);
+
+}
+
+h3 {
     text-align: center;
     margin-top: 10px;
     font-weight: 400;
     margin-bottom: 20px;
-    
+
 }
-p{
+
+p {
     font-size: 20px;
-   margin-top: 150px;
+    margin-top: 150px;
     text-align: center;
     font-weight: 200;
-  
-   
-  
-   }
 
-   .btMais, .btMenos{
+}
+
+.btMais,
+.btMenos {
     cursor: pointer;
     color: rgb(34, 40, 227);
     font-weight: bold;
@@ -111,19 +113,20 @@ p{
     float: right;
     margin-top: 5px;
 }
-.valor{
+
+.valor {
     font-size: 25px;
     font-weight: 500;
     position: absolute;
-   margin-left: -140px;
+    margin-left: -140px;
     margin-top: 65px;
     color: rgb(11, 23, 37);
-    background-color:rgb(140, 218, 63) ;
+    background-color: rgb(140, 218, 63);
     border-radius: 25%;
 }
 
-.quantidade{
-   
+.quantidade {
+
     color: white;
     background-color: rgb(34, 40, 227);
     padding: 9px;
@@ -133,31 +136,67 @@ p{
     margin-top: 5px;
 }
 
+/*formulario*/
+
+#formulario {
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 550px;
+
+}
+
+label {
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(34, 40, 227);
+    font-weight: 800;
+    text-transform: uppercase;
+
+}
+
+input {
+    border-radius: 10%;
+    border: 6px solid blue;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#btFinalizar {
+    border-radius: 30%;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#btFinalizar:hover {
+    background-color: black;
+}
+
 /* tela de gerenciamento*/
 
-.container{
+.container {
     text-align: center;
     font-size: 140%;
     text-transform: capitalize;
-  
+
 }
 
-.container h1{
-    color: rgb(34, 40, 227); 
+.container h1 {
+    color: rgb(34, 40, 227);
     font-family: Trattatello, fantasy;
     font-size: 220%;
     text-transform: uppercase;
 
 }
-.form-group{
-   
+
+.form-group {
+
     width: 50%;
     margin-left: 25%;
-   padding: 20px;
-    
+    padding: 20px;
 }
 
-.form-group input{
+.form-group input {
     padding: 15px;
     border: 1px solid rgb(34, 40, 227);
 }
@@ -166,48 +205,10 @@ p{
     background-color: beige;
     border-radius: 5%;
     margin-top: 10px;
-   
-   
-    
+
 }
 
 .fa {
     float: right;
     margin-right: 40px;
-}
-
-/*formulario*/
-
-#formulario{
-    position: absolute;
-    margin-top: 400px;
-    margin-left: 550px;
-  
-  
-   
-}
-
-label{
-    padding: 5px;
-   font-size:20px;
-   text-align: center;
-   color: rgb(34, 40, 227);
-   font-weight: 800;
-   text-transform: uppercase;
-   
-}
-
-input{
-    border-radius: 10%;
-    border: 6px solid blue;
-    text-align: center;
-    text-transform: uppercase;
-}
-#btFinalizar{
-    border-radius: 30%;
-    font-weight: 700;
-    font-size: 20px;
-}
-#btFinalizar:hover{
-    background-color: black;
 }
